@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manialink>
+
+  <!-- Full-screen overlay -->
+  <quad posX="0" posY="0" sizeX="320" sizeY="240"
+        bgcolor="000000" opacity="0.65"/>
+
+  <!-- Card border (thin gold-tinted outline) -->
+  <quad posX="99" posY="64" sizeX="122" sizeY="112"
+        bgcolor="2A2418" opacity="1"/>
+
+  <!-- Card body -->
+  <quad posX="100" posY="65" sizeX="120" sizeY="110"
+        bgcolor="0D0D0D" opacity="0.97"/>
+
+  <!-- Gold top accent bar -->
+  <quad posX="100" posY="65" sizeX="120" sizeY="2"
+        bgcolor="C8A96E" opacity="1"/>
+
+  <!-- Player name -->
+  <label posX="100" posY="76" sizeX="120"
+         text="Nico / NicoReborn"
+         halign="center" textcolor="F0EDE8" textsize="5"/>
+
+  <!-- Separator line -->
+  <quad posX="130" posY="95" sizeX="60" sizeY="1"
+        bgcolor="C8A96E" opacity="0.35"/>
+
+  <!-- Country -->
+  <label posX="100" posY="100" sizeX="120"
+         text="Georgia"
+         halign="center" textcolor="C8A96E" textsize="2" opacity="0.9"/>
+
+  <!-- Playing time -->
+  <label posX="100" posY="109" sizeX="120"
+         text="Playing for 3 years"
+         halign="center" textcolor="999999" textsize="2"/>
+
+  <!-- Best track -->
+  <label posX="100" posY="118" sizeX="120"
+         text="Best Track: Snow A-2"
+         halign="center" textcolor="999999" textsize="2"/>
+
+  <!-- Game tag -->
+  <label posX="100" posY="133" sizeX="120"
+         text="TRACKMANIA UNITED FOREVER"
+         halign="center" textcolor="C8A96E" textsize="1" opacity="0.3"/>
+
+  <!-- Button divider -->
+  <quad posX="104" posY="142" sizeX="112" sizeY="1"
+        bgcolor="C8A96E" opacity="0.2"/>
+
+  <!-- Button: 50 Coppers -->
+  <quad posX="104" posY="144" sizeX="54" sizeY="14"
+        bgcolor="C8A96E" opacity="0.15"
+        action="PayCoppers?Amount=50&amp;Login=nicoreborn&amp;Message=Donation"/>
+  <label posX="104" posY="149" sizeX="54"
+         text="50 Coppers"
+         halign="center" textcolor="C8A96E" textsize="2"
+         action="PayCoppers?Amount=50&amp;Login=nicoreborn&amp;Message=Donation"/>
+
+  <!-- Button: 100 Coppers -->
+  <quad posX="162" posY="144" sizeX="54" sizeY="14"
+        bgcolor="C8A96E" opacity="0.15"
+        action="PayCoppers?Amount=100&amp;Login=nicoreborn&amp;Message=Donation"/>
+  <label posX="162" posY="149" sizeX="54"
+         text="100 Coppers"
+         halign="center" textcolor="C8A96E" textsize="2"
+         action="PayCoppers?Amount=100&amp;Login=nicoreborn&amp;Message=Donation"/>
+
+</manialink>
