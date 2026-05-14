@@ -65,11 +65,11 @@
     <quad posn="0 -19 1" sizen="95 0.5" halign="center" valign="center"
           style="Bgs1" substyle="BgTitle3_3" />
 
-    <!-- Back button -->
+    <!-- Close button -->
     <label posn="0 -27 1" sizen="36 8" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.8"
-           text="$777Back"
-           manialink="twinkest" />
+           text="$777Close"
+           action="0" />
 
     <!-- Footer -->
     <label posn="0 -37 1" sizen="100 5" halign="center" valign="center"
