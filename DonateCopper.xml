@@ -3,85 +3,137 @@
 
     <!-- Dimmed backdrop -->
     <quad posn="0 0 0" sizen="320 180" halign="center" valign="center"
-          bgcolor="00000099" />
+          bgcolor="000000bb" />
 
-    <!-- Panel shadow -->
-    <quad posn="1 -1 1" sizen="108 92" halign="center" valign="center"
-          bgcolor="00000088" />
+    <!-- Panel outer glow (copper) -->
+    <quad posn="0 0 1" sizen="112 96" halign="center" valign="center"
+          bgcolor="c8600055" />
 
-    <!-- Main panel -->
-    <quad posn="0 0 2" sizen="108 92" halign="center" valign="center"
-          style="Bgs1" substyle="BgWindow2" />
+    <!-- Panel border (copper thin line) -->
+    <quad posn="0 0 2" sizen="110 94" halign="center" valign="center"
+          bgcolor="c86000cc" />
 
-    <!-- Header bar -->
-    <quad posn="0 39 3" sizen="108 14" halign="center" valign="center"
-          bgcolor="c8700099" />
+    <!-- Panel body -->
+    <quad posn="0 0 3" sizen="108 92" halign="center" valign="center"
+          bgcolor="0d0d0dff" />
+
+    <!-- Header bg dark layer -->
+    <quad posn="0 39 4" sizen="108 14" halign="center" valign="center"
+          bgcolor="0a0a0aff" />
+
+    <!-- Header copper accent bar (top) -->
+    <quad posn="0 45.5 5" sizen="108 1.2" halign="center" valign="center"
+          bgcolor="c86000ff" />
+
+    <!-- Header copper accent bar (bottom) -->
+    <quad posn="0 32.5 5" sizen="108 1.2" halign="center" valign="center"
+          bgcolor="c86000ff" />
 
     <!-- Title -->
-    <label posn="0 39 4" sizen="100 10" halign="center" valign="center"
-           style="TextTitle3" textsize="2.5"
+    <label posn="0 39 6" sizen="100 10" halign="center" valign="center"
+           style="TextTitle3" textsize="2.6"
            text="$fc0Donate $fffCoppers" />
 
     <!-- Subtitle -->
-    <label posn="0 27 3" sizen="100 6" halign="center" valign="center"
+    <label posn="0 26 4" sizen="100 6" halign="center" valign="center"
            style="TextCardSmall" textsize="1.5"
-           text="$999Choose an amount to donate" />
+           text="$777Choose an amount to donate" />
 
     <!-- Divider -->
-    <quad posn="0 22 3" sizen="95 0.5" halign="center" valign="center"
-          bgcolor="c8700077" />
+    <quad posn="0 21.5 4" sizen="90 0.4" halign="center" valign="center"
+          bgcolor="c8600055" />
 
-    <!-- Row 1: 50, 60, 70 -->
-    <label posn="-30 13 3" sizen="28 9" halign="center" valign="center"
-           style="CardButtonMedium"
-           text="$fc050 $000Coppers"
+    <!-- === Row 1: 50, 60, 70 === -->
+
+    <!-- 50 -->
+    <quad posn="-30 12 4" sizen="30 9.5" halign="center" valign="center"
+          bgcolor="c8600088" />
+    <quad posn="-30 12 5" sizen="28.5 8" halign="center" valign="center"
+          bgcolor="1c1c1cff" />
+    <label posn="-30 12 6" sizen="28 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$fc050 $fffCoppers"
            manialink="nicofart" />
 
-    <label posn="0 13 3" sizen="28 9" halign="center" valign="center"
-           style="CardButtonMedium"
-           text="$fc060 $000Coppers"
+    <!-- 60 -->
+    <quad posn="0 12 4" sizen="30 9.5" halign="center" valign="center"
+          bgcolor="c8600088" />
+    <quad posn="0 12 5" sizen="28.5 8" halign="center" valign="center"
+          bgcolor="1c1c1cff" />
+    <label posn="0 12 6" sizen="28 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$fc060 $fffCoppers"
            manialink="nicofart60" />
 
-    <label posn="30 13 3" sizen="28 9" halign="center" valign="center"
-           style="CardButtonMedium"
-           text="$fc070 $000Coppers"
+    <!-- 70 -->
+    <quad posn="30 12 4" sizen="30 9.5" halign="center" valign="center"
+          bgcolor="c8600088" />
+    <quad posn="30 12 5" sizen="28.5 8" halign="center" valign="center"
+          bgcolor="1c1c1cff" />
+    <label posn="30 12 6" sizen="28 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$fc070 $fffCoppers"
            manialink="nicofart70" />
 
-    <!-- Row 2: 80, 100, 200 -->
-    <label posn="-30 2 3" sizen="28 9" halign="center" valign="center"
-           style="CardButtonMedium"
-           text="$fc080 $000Coppers"
+    <!-- === Row 2: 80, 100, 200 === -->
+
+    <!-- 80 -->
+    <quad posn="-30 1 4" sizen="30 9.5" halign="center" valign="center"
+          bgcolor="c8600088" />
+    <quad posn="-30 1 5" sizen="28.5 8" halign="center" valign="center"
+          bgcolor="1c1c1cff" />
+    <label posn="-30 1 6" sizen="28 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$fc080 $fffCoppers"
            manialink="nicofart80" />
 
-    <label posn="0 2 3" sizen="28 9" halign="center" valign="center"
-           style="CardButtonMedium"
-           text="$fc0100 $000Coppers"
+    <!-- 100 -->
+    <quad posn="0 1 4" sizen="30 9.5" halign="center" valign="center"
+          bgcolor="c8600088" />
+    <quad posn="0 1 5" sizen="28.5 8" halign="center" valign="center"
+          bgcolor="1c1c1cff" />
+    <label posn="0 1 6" sizen="28 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$fc0100 $fffCoppers"
            manialink="twinkerie100" />
 
-    <label posn="30 2 3" sizen="28 9" halign="center" valign="center"
-           style="CardButtonMedium"
-           text="$fc0200 $000Coppers"
+    <!-- 200 -->
+    <quad posn="30 1 4" sizen="30 9.5" halign="center" valign="center"
+          bgcolor="c8600088" />
+    <quad posn="30 1 5" sizen="28.5 8" halign="center" valign="center"
+          bgcolor="1c1c1cff" />
+    <label posn="30 1 6" sizen="28 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$fc0200 $fffCoppers"
            manialink="twinkerie200" />
 
-    <!-- Row 3: 500 centered -->
-    <label posn="0 -9 3" sizen="40 9" halign="center" valign="center"
-           style="CardButtonMedium"
-           text="$fc0500 $000Coppers"
+    <!-- === Row 3: 500 centered === -->
+    <quad posn="0 -10 4" sizen="42 9.5" halign="center" valign="center"
+          bgcolor="c8600088" />
+    <quad posn="0 -10 5" sizen="40.5 8" halign="center" valign="center"
+          bgcolor="1c1c1cff" />
+    <label posn="0 -10 6" sizen="40 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$fc0500 $fffCoppers"
            manialink="twinkerie500" />
 
     <!-- Divider -->
-    <quad posn="0 -19 3" sizen="95 0.5" halign="center" valign="center"
-          bgcolor="c8700077" />
+    <quad posn="0 -20.5 4" sizen="90 0.4" halign="center" valign="center"
+          bgcolor="c8600055" />
 
     <!-- Back button -->
-    <label posn="0 -27 3" sizen="36 8" halign="center" valign="center"
-           style="CardButtonMedium"
-           text="$999Back"
+    <quad posn="0 -28 4" sizen="38 9.5" halign="center" valign="center"
+          bgcolor="44444488" />
+    <quad posn="0 -28 5" sizen="36.5 8" halign="center" valign="center"
+          bgcolor="222222ff" />
+    <label posn="0 -28 6" sizen="36 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$888Back"
            manialink="twinkest" />
 
     <!-- Footer -->
-    <label posn="0 -37 3" sizen="100 5" halign="center" valign="center"
+    <label posn="0 -38 4" sizen="100 5" halign="center" valign="center"
            style="TextCardSmall" textsize="1.2"
-           text="$555You will be taken to a donation page." />
+           text="$444You will be taken to a donation page." />
 
 </manialink>
