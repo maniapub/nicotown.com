@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manialink id="DonateCopper">
+
+    <!-- Main panel background -->
+    <quad posn="0 0 0" sizen="140 80" halign="center" valign="center"
+          style="Bgs1" substyle="BgWindow3" />
+
+    <!-- Header bar -->
+    <quad posn="0 34 1" sizen="140 12" halign="center" valign="center"
+          style="Bgs1" substyle="BgTitle3_3" />
+
+    <!-- Title -->
+    <label posn="0 34 2" sizen="130 10" halign="center" valign="center"
+           style="TextTitle3" textsize="2.5"
+           text="Donate Coppers" />
+
+    <!-- Row 1: 50, 60, 70, 80 -->
+    <label posn="-52 20 1" sizen="28 10" halign="center" valign="center"
+           style="CardButtonMedium" text="50 Coppers"
+           manialink="nicofart" />
+
+    <label posn="-18 20 1" sizen="28 10" halign="center" valign="center"
+           style="CardButtonMedium" text="60 Coppers"
+           manialink="nicofart60" />
+
+    <label posn="18 20 1" sizen="28 10" halign="center" valign="center"
+           style="CardButtonMedium" text="70 Coppers"
+           manialink="nicofart70" />
+
+    <label posn="52 20 1" sizen="28 10" halign="center" valign="center"
+           style="CardButtonMedium" text="80 Coppers"
+           manialink="nicofart80" />
+
+    <!-- Row 2: 100, 200, 500 -->
+    <label posn="-36 5 1" sizen="32 10" halign="center" valign="center"
+           style="CardButtonMedium" text="100 Coppers"
+           manialink="twinkerie100" />
+
+    <label posn="0 5 1" sizen="32 10" halign="center" valign="center"
+           style="CardButtonMedium" text="200 Coppers"
+           manialink="twinkerie200" />
+
+    <label posn="36 5 1" sizen="32 10" halign="center" valign="center"
+           style="CardButtonMedium" text="500 Coppers"
+           manialink="twinkerie500" />
+
+    <!-- Info text -->
+    <label posn="0 -10 1" sizen="130 6" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.5"
+           text="$888Click an amount to be taken to the donation page." />
+
+    <!-- Close -->
+    <label posn="0 -22 1" sizen="50 6" halign="center" valign="center"
+           style="TextButtonNav" textsize="1.8"
+           text="$888Close"
+           action="0" />
+
+</manialink>
