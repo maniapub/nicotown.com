@@ -34,39 +34,39 @@
     <!-- Row 1: 50, 60, 70 -->
     <label posn="-30 13 3" sizen="28 9" halign="center" valign="center"
            style="CardButtonMedium"
-           text="$fc050 $fffCu"
+           text="$fc050 $000Coppers"
            manialink="nicofart" />
 
     <label posn="0 13 3" sizen="28 9" halign="center" valign="center"
            style="CardButtonMedium"
-           text="$fc060 $fffCu"
+           text="$fc060 $000Coppers"
            manialink="nicofart60" />
 
     <label posn="30 13 3" sizen="28 9" halign="center" valign="center"
            style="CardButtonMedium"
-           text="$fc070 $fffCu"
+           text="$fc070 $000Coppers"
            manialink="nicofart70" />
 
     <!-- Row 2: 80, 100, 200 -->
     <label posn="-30 2 3" sizen="28 9" halign="center" valign="center"
            style="CardButtonMedium"
-           text="$fc080 $fffCu"
+           text="$fc080 $000Coppers"
            manialink="nicofart80" />
 
     <label posn="0 2 3" sizen="28 9" halign="center" valign="center"
            style="CardButtonMedium"
-           text="$fc0100 $fffCu"
+           text="$fc0100 $000Coppers"
            manialink="twinkerie100" />
 
     <label posn="30 2 3" sizen="28 9" halign="center" valign="center"
            style="CardButtonMedium"
-           text="$fc0200 $fffCu"
+           text="$fc0200 $000Coppers"
            manialink="twinkerie200" />
 
     <!-- Row 3: 500 centered -->
     <label posn="0 -9 3" sizen="40 9" halign="center" valign="center"
            style="CardButtonMedium"
-           text="$fc0500 $fffCoppers"
+           text="$fc0500 $000Coppers"
            manialink="twinkerie500" />
 
     <!-- Divider -->
