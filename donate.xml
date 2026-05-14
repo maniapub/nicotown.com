@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manialink id="Redirect">
+
+    <!-- Fullscreen clickable area — click anywhere to go to twinkest -->
+    <quad posn="0 0 0" sizen="320 180" halign="center" valign="center"
+          bgcolor="00000099"
+          manialink="twinkest" />
+
+    <label posn="0 5 1" sizen="200 12" halign="center" valign="center"
+           style="TextTitle3" textsize="3"
+           text="Redirecting..." />
+
+    <label posn="0 -8 1" sizen="200 8" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.8"
+           text="$888Click anywhere to continue." />
+
+</manialink>
