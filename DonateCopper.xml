@@ -17,7 +17,7 @@
     <!-- Subtitle -->
     <label posn="0 26 1" sizen="112 7" halign="center" valign="center"
            style="TextCardSmall" textsize="1.6"
-           text="$555Choose an amount to donate" />
+           text="$cccChoose an amount to donate" />
 
     <!-- LEFT COLUMN: 10, 50, 60, 70 -->
     <label posn="-29 14 1" sizen="52 9" halign="center" valign="center"
