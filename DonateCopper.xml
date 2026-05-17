@@ -7,7 +7,7 @@
 
     <!-- Header bar -->
     <quad posn="0 37 1" sizen="118 14" halign="center" valign="center"
-          style="Bgs1" substyle="BgTitle3_3" />
+          style="Bgs1" substyle="BgTitle2" />
 
     <!-- Title -->
     <label posn="0 37 2" sizen="112 12" halign="center" valign="center"
@@ -17,70 +17,58 @@
     <!-- Subtitle -->
     <label posn="0 26 1" sizen="112 7" halign="center" valign="center"
            style="TextCardSmall" textsize="1.6"
-           text="$666Choose an amount to donate" />
-
-    <!-- Top divider -->
-    <quad posn="0 21 1" sizen="104 0.5" halign="center" valign="center"
-          style="Bgs1" substyle="BgTitle3_3" />
-
-    <!-- Center vertical divider -->
-    <quad posn="0 -4 1" sizen="0.5 50" halign="center" valign="center"
-          style="Bgs1" substyle="BgTitle3_3" />
+           text="$555Choose an amount to donate" />
 
     <!-- LEFT COLUMN: 10, 50, 60, 70 -->
-    <label posn="-29 9 1" sizen="52 9" halign="center" valign="center"
+    <label posn="-29 14 1" sizen="52 9" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.9"
            text="$aaa10 $666Coppers"
            manialink="nicofart10" />
 
-    <label posn="-29 -2 1" sizen="52 9" halign="center" valign="center"
+    <label posn="-29 3 1" sizen="52 9" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.9"
            text="$fa050 $000Coppers"
            manialink="nicofart" />
 
-    <label posn="-29 -13 1" sizen="52 9" halign="center" valign="center"
+    <label posn="-29 -8 1" sizen="52 9" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.9"
            text="$fa060 $000Coppers"
            manialink="nicofart60" />
 
-    <label posn="-29 -24 1" sizen="52 9" halign="center" valign="center"
+    <label posn="-29 -19 1" sizen="52 9" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.9"
            text="$fc070 $000Coppers"
            manialink="nicofart70" />
 
     <!-- RIGHT COLUMN: 80, 100, 200, 500 -->
-    <label posn="29 9 1" sizen="52 9" halign="center" valign="center"
+    <label posn="29 14 1" sizen="52 9" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.9"
            text="$f8080 $000Coppers"
            manialink="nicofart80" />
 
-    <label posn="29 -2 1" sizen="52 9" halign="center" valign="center"
+    <label posn="29 3 1" sizen="52 9" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.9"
            text="$f60100 $000Coppers"
            manialink="twinkerie100" />
 
-    <label posn="29 -13 1" sizen="52 9" halign="center" valign="center"
+    <label posn="29 -8 1" sizen="52 9" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.9"
            text="$f50200 $000Coppers"
            manialink="twinkerie200" />
 
-    <label posn="29 -24 1" sizen="52 9" halign="center" valign="center"
+    <label posn="29 -19 1" sizen="52 9" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.9"
            text="$f40500 $000Coppers"
            manialink="twinkerie500" />
 
-    <!-- Bottom divider -->
-    <quad posn="0 -29 1" sizen="104 0.5" halign="center" valign="center"
-          style="Bgs1" substyle="BgTitle3_3" />
-
     <!-- Close button -->
-    <label posn="0 -36 1" sizen="38 8" halign="center" valign="center"
+    <label posn="0 -33 1" sizen="38 8" halign="center" valign="center"
            style="CardButtonMedium" textsize="1.8"
            text="$777Close"
            action="0" />
 
     <!-- Footer -->
-    <label posn="0 -41 1" sizen="112 5" halign="center" valign="center"
+    <label posn="0 -40 1" sizen="112 5" halign="center" valign="center"
            style="TextCardSmall" textsize="1.2"
            text="$444You will be taken to a donation page." />
 
