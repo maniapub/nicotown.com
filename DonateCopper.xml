@@ -74,7 +74,7 @@
 
     <!-- :) -->
     <label posn="42 -33 1" sizen="28 8" halign="center" valign="center"
-           style="TextTitle3" textsize="3"
+           style="TextTitle3" textsize="6"
            text="$fff(^_^)" />
 
 </manialink>
