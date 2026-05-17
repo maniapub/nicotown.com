@@ -73,8 +73,8 @@
            text="$444You will be taken to a donation page." />
 
     <!-- :) -->
-    <label posn="76 -30 1" sizen="40 12" halign="center" valign="center"
+    <label posn="70 -30 1" sizen="40 12" halign="center" valign="center"
            style="TextTitle3" textsize="4.5"
-           text="$fff( ﾟヮﾟ)" />
+           text="$fff(^_^)" />
 
 </manialink>
