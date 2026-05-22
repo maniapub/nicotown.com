@@ -1,118 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manialink id="Nvidia">
 
-    <!-- ===== BACKGROUND ===== -->
-    <quad posn="0 0 0" sizen="280 180" halign="center" valign="center"
+    <!-- BACKGROUND (200x148 = reasonable window, not full screen) -->
+    <quad posn="0 0 0" sizen="200 148" halign="center" valign="center"
           style="Bgs1" substyle="BgWindow1" />
 
-    <!-- ===== HEADER ===== -->
-    <quad posn="0 80 1" sizen="280 20" halign="center" valign="center"
+    <!-- HEADER -->
+    <quad posn="0 66 1" sizen="200 16" halign="center" valign="center"
           style="Bgs1" substyle="BgWindow2" />
 
-    <!-- Nvidia wordmark -->
-    <label posn="-65 80 2" sizen="90 14" halign="center" valign="center"
-           style="TextTitle1" textsize="8"
+    <!-- NViDiA wordmark (left of header) -->
+    <label posn="-50 66 2" sizen="72 12" halign="center" valign="center"
+           style="TextTitle1" textsize="7"
            text="$7b0NViDiA" />
 
-    <!-- Header divider rule -->
-    <quad posn="-5 80 2" sizen="0.6 18" halign="center" valign="center"
-          style="Bgs1" substyle="BgList" />
+    <!-- Pipe separator -->
+    <label posn="-3 66 2" sizen="6 12" halign="center" valign="center"
+           style="TextTitle3" textsize="3"
+           text="$444|" />
 
-    <!-- ESWC text (right of divider) -->
-    <label posn="65 84 2" sizen="140 7" halign="center" valign="center"
-           style="TextTitle3" textsize="4"
+    <!-- ESWC info (right of header) -->
+    <label posn="48 70 2" sizen="96 7" halign="center" valign="center"
+           style="TextTitle3" textsize="3.5"
            text="$fffESWC 2006" />
-    <label posn="65 77 2" sizen="140 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.8"
-           text="$7b0TrackMania Nations  -  Paris" />
+    <label posn="48 62 2" sizen="96 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.6"
+           text="$7b0TrackMania Nations - Paris" />
 
-    <!-- ===== ABOUT ===== -->
-    <label posn="-120 62 2" sizen="260 6" halign="left" valign="center"
-           style="TextTitle3" textsize="2"
-           text="$7b0>>  $fffABOUT" />
+    <!-- ABOUT -->
+    <label posn="-88 52 2" sizen="185 6" halign="left" valign="center"
+           style="TextTitle3" textsize="1.9"
+           text="$7b0>> $fffABOUT" />
 
-    <label posn="0 53 2" sizen="262 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
+    <label posn="0 44 2" sizen="188 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
            text="$cccThe E-Sports World Cup is the world's premier multi-game tournament." />
-    <label posn="0 47 2" sizen="262 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
+    <label posn="0 38 2" sizen="188 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
            text="$cccIn 2006, $7b0Nvidia$ccc sponsored TrackMania Nations as a free download" />
-    <label posn="0 41 2" sizen="262 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
-           text="$cccso that players worldwide could compete on behalf of their country." />
+    <label posn="0 32 2" sizen="188 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
+           text="$cccso players worldwide could compete on behalf of their country." />
 
-    <!-- Divider -->
-    <quad posn="0 34 1" sizen="258 0.5" halign="center" valign="center"
-          style="Bgs1" substyle="BgList" />
+    <!-- FORMAT -->
+    <label posn="-88 23 2" sizen="185 6" halign="left" valign="center"
+           style="TextTitle3" textsize="1.9"
+           text="$7b0>> $fffFORMAT" />
 
-    <!-- ===== COMPETITION FORMAT ===== -->
-    <label posn="-120 28 2" sizen="260 6" halign="left" valign="center"
-           style="TextTitle3" textsize="2"
-           text="$7b0>>  $fffCOMPETITION FORMAT" />
-
-    <label posn="-65 19 2" sizen="118 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
+    <label posn="-45 15 2" sizen="82 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
            text="$7b0Environment:  $fffStadium" />
-    <label posn="65 19 2" sizen="118 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
+    <label posn="45 15 2" sizen="82 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
            text="$7b0Mode:  $fffTime Attack" />
-
-    <label posn="-65 13 2" sizen="118 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
+    <label posn="-45 9 2" sizen="82 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
            text="$7b0Year:  $fff2006" />
-    <label posn="65 13 2" sizen="118 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
+    <label posn="45 9 2" sizen="82 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
            text="$7b0Venue:  $fffParis, France" />
 
-    <!-- Divider -->
-    <quad posn="0 6 1" sizen="258 0.5" halign="center" valign="center"
-          style="Bgs1" substyle="BgList" />
+    <!-- NATIONS -->
+    <label posn="-88 0 2" sizen="185 6" halign="left" valign="center"
+           style="TextTitle3" textsize="1.9"
+           text="$7b0>> $fffNATIONS" />
 
-    <!-- ===== PARTICIPATING NATIONS ===== -->
-    <label posn="-120 0 2" sizen="260 6" halign="left" valign="center"
-           style="TextTitle3" textsize="2"
-           text="$7b0>>  $fffPARTICIPATING NATIONS" />
+    <label posn="0 -8 2" sizen="188 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
+           text="$7b0France  $888|  $7b0Germany  $888|  $7b0Czech Rep.  $888|  $7b0Russia  $888|  $7b0Sweden" />
+    <label posn="0 -14 2" sizen="188 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
+           text="$7b0Netherlands  $888|  $7b0Switzerland  $888|  $7b0Belgium  $888|  $7b0Poland  $888|  $7b0UK" />
 
-    <label posn="0 -9 2" sizen="262 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
-           text="$7b0France  $888|  $7b0Germany  $888|  $7b0Czech Republic  $888|  $7b0Russia  $888|  $7b0Sweden" />
-    <label posn="0 -15 2" sizen="262 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
-           text="$7b0Netherlands  $888|  $7b0Switzerland  $888|  $7b0Belgium  $888|  $7b0Poland  $888|  $7b0United Kingdom" />
+    <!-- DID YOU KNOW -->
+    <label posn="-88 -23 2" sizen="185 6" halign="left" valign="center"
+           style="TextTitle3" textsize="1.9"
+           text="$7b0>> $fffDID YOU KNOW?" />
 
-    <!-- Divider -->
-    <quad posn="0 -23 1" sizen="258 0.5" halign="center" valign="center"
-          style="Bgs1" substyle="BgList" />
+    <label posn="0 -31 2" sizen="188 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
+           text="$cccStadium became the most popular environment in the entire" />
+    <label posn="0 -37 2" sizen="188 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
+           text="$cccTrackMania franchise thanks to ESWC bringing it to the world." />
 
-    <!-- ===== DID YOU KNOW ===== -->
-    <label posn="-120 -29 2" sizen="260 6" halign="left" valign="center"
-           style="TextTitle3" textsize="2"
-           text="$7b0>>  $fffDID YOU KNOW?" />
-
-    <label posn="0 -38 2" sizen="262 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
-           text="$cccThe Stadium environment used in ESWC later became the most" />
-    <label posn="0 -44 2" sizen="262 5" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.55"
-           text="$cccpopular environment in the entire TrackMania franchise." />
-
-    <!-- ===== BOTTOM BAR ===== -->
-    <quad posn="0 -75 1" sizen="280 20" halign="center" valign="center"
+    <!-- BOTTOM BAR -->
+    <quad posn="0 -66 1" sizen="200 16" halign="center" valign="center"
           style="Bgs1" substyle="BgWindow2" />
 
-    <!-- Close button -->
-    <label posn="-55 -75 2" sizen="80 9" halign="center" valign="center"
-           style="CardButtonMedium" textsize="1.8"
+    <label posn="-42 -66 2" sizen="70 9" halign="center" valign="center"
+           style="CardButtonMedium" textsize="1.7"
            text="$777Close"
            action="0" />
 
-    <!-- Powered by -->
-    <label posn="55 -75 2" sizen="130 6" halign="center" valign="center"
-           style="TextCardSmall" textsize="1.6"
+    <label posn="42 -66 2" sizen="96 5" halign="center" valign="center"
+           style="TextCardSmall" textsize="1.4"
            text="$555Powered by  $7b0NViDiA" />
 
-    <!-- Version stamp -->
-    <label posn="120 -84 2" sizen="60 4" halign="center" valign="center"
+    <label posn="82 -72 2" sizen="40 4" halign="center" valign="center"
            style="TextCardSmall" textsize="1.1"
            text="$333v1.0  2006" />
 
