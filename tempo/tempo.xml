@@ -6,9 +6,12 @@
         
         <!-- Header Section -->
         <frame posn="0 0 0">
-            <quad sizen="65 6.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem"/>
-            <quad posn="0 -6.5 1" sizen="65 0.4" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
-            <label posn="2 -3.25 2" halign="left" valign="center" style="TextStatic" scale="1.1" text="$835Iconic$222।$fffтємρ๏'s Landing Page"/>
+            <!-- Smooth flat background with no vertical split seams -->
+            <quad sizen="65 6.5" halign="left" valign="top" style="BgsChalCC" substyle="BgCard"/>
+            <!-- Accent border under the title -->
+            <quad posn="0 -6.5 1" sizen="65 0.4" halign="left" valign="top" style="BgsChalCC" substyle="BgCard"/>
+            <!-- Restored Title Text -->
+            <label posn="2 -3.25 2" halign="left" valign="center" style="TextStatic" scale="1.1" text="$835〠$222।$fffтємρ๏'s Landing Page"/>
         </frame>
         
         <!-- Contact Info Header Label -->
@@ -16,27 +19,27 @@
             <label posn="0 0 1" halign="left" valign="top" style="TextStatic" scale="0.9" text="$z$aaaContact Info:"/>
         </frame>
 
-        <!-- Social Media Buttons (Matching sizes) -->
+        <!-- Social Media Buttons (Using smooth, matching flat styles) -->
         <frame posn="0 -13 0">
             
-            <!-- BUTTON 1: Telegram (Size set to 18 width) -->
+            <!-- BUTTON 1: Telegram -->
             <frame posn="0 0 0">
-                <quad sizen="18 4.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem" url="http://t.me/uberbug"/>
-                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
+                <quad sizen="18 4.5" halign="left" valign="top" style="BgsChalCC" substyle="BgCard" url="http://t.me/uberbug"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="BgsChalCC" substyle="BgCard"/>
                 <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$h$fffTelegram" url="http://t.me/uberbug"/>
             </frame>
 
-            <!-- BUTTON 2: Discord (Now matching at 18 width, shifted right by 20 units) -->
+            <!-- BUTTON 2: Discord -->
             <frame posn="20 0 0">
-                <quad sizen="18 4.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem" url="https://discordapp.com/users/1177664868690702367"/>
-                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
+                <quad sizen="18 4.5" halign="left" valign="top" style="BgsChalCC" substyle="BgCard" url="https://discordapp.com/users/1177664868690702367"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="BgsChalCC" substyle="BgCard"/>
                 <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$h$fffDiscord" url="https://discordapp.com/users/1177664868690702367"/>
             </frame>
 
-            <!-- BUTTON 3: Twitter / X (Now matching at 18 width, shifted right by 40 units) -->
+            <!-- BUTTON 3: Twitter / X -->
             <frame posn="40 0 0">
-                <quad sizen="18 4.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem" url="https://x.com/uberbugTG"/>
-                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
+                <quad sizen="18 4.5" halign="left" valign="top" style="BgsChalCC" substyle="BgCard" url="https://x.com/uberbugTG"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="BgsChalCC" substyle="BgCard"/>
                 <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$h$fffTwitter" url="https://x.com/uberbugTG"/>
             </frame>
 
