@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<manialink version="1">
+    
+    <!-- Top Left Header Frame -->
+    <frame posn="-64 48 0" halign="left" valign="top">
+        
+        <!-- User Nickname Display -->
+        <!-- Note: Special characters like '।' and '〠' are safely escaped as XML entities if needed, but standard UTF-8 handles them. -->
+        <label posn="0 0 1" halign="left" valign="center" style="TextStatic" scale="1.5" text="$835〠$222।$fff$iтємρ๏"/>
+        
+        <!-- Contacts Button -->
+        <!-- The manialink attribute will look for a local page, sub-page, or external URL named "tempoContacts" -->
+        <label posn="0 -8 1" halign="left" valign="center" style="CardButton" scale="1" text="Contacts" manialink="tempoContacts"/>
+        
+    </frame>
+
+</manialink>
