@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="1">
-    
-    <!-- Top Left Header Frame -->
-    <frame posn="-64 48 0" halign="left" valign="top">
+
+    <!-- Top Left Container (Slightly offset from edge to prevent clipping) -->
+    <frame posn="-62 46 0" halign="left" valign="top">
         
-        <!-- User Nickname Display -->
-        <!-- Note: Special characters like '।' and '〠' are safely escaped as XML entities if needed, but standard UTF-8 handles them. -->
-        <label posn="0 0 1" halign="left" valign="center" style="TextStatic" scale="1.5" text="$835〠$222।$fff$iтємρ๏"/>
+        <!-- Header / Nickname Section -->
+        <frame posn="0 0 0">
+            <!-- Subtle dark background card for the name -->
+            <quad sizen="45 7" halign="left" valign="center" style="BgsPlayerCard" substyle="BgCardSystem"/>
+            <!-- Nickname text overlay -->
+            <label posn="2 0 1" halign="left" valign="center" style="TextStatic" scale="1.2" text="$835〠$222।$fff$iтємρ๏"/>
+        </frame>
         
-        <!-- Contacts Button -->
-        <!-- The manialink attribute will look for a local page, sub-page, or external URL named "tempoContacts" -->
-        <label posn="0 -8 1" halign="left" valign="center" style="CardButton" scale="1" text="Contacts" manialink="tempoContacts"/>
-        
+        <!-- Interactive Navigation Section -->
+        <frame posn="0 -9 0">
+            <!-- Background element that acts as the visual button shape -->
+            <!-- The 'action' script style gives it an automatic hover glow effect -->
+            <quad sizen="25 6" halign="left" valign="center" style="Bgs1InZone" substyle="BgCardNav" manialink="tempoContacts"/>
+            
+            <!-- Button Text Label (Slightly offset to center perfectly inside the quad) -->
+            <!-- We add the '$h' formatting tag to make the text change color on hover natively -->
+            <label posn="2 -0.5 1" halign="left" valign="center" style="TextLink" scale="1" text="$hContacts" manialink="tempoContacts"/>
+        </frame>
+
     </frame>
 
 </manialink>
