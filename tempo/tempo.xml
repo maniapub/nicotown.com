@@ -4,11 +4,11 @@
     <!-- System24 Discord TUI Container -->
     <frame posn="-62 46 0" halign="left" valign="top">
         
-        <!-- Main Sidebar Panel Background (--bg-4 / Main Background) -->
+        <!-- Main Sidebar Panel Background bg-4 / Main Background -->
         <!-- Gives a structured card feel so it doesn't look like floating text -->
         <quad sizen="50 25" halign="left" valign="top" bgcolor="13161cff"/>
         
-        <!-- Sharp Top Border Accent Line (--accent-1 / Cool Blue) -->
+        <!-- Sharp Top Border Accent Line accent-1 / Cool Blue -->
         <quad posn="0 0 1" sizen="50 0.5" halign="left" valign="top" bgcolor="a0c5feff"/>
 
         <!-- Header: User Profile Section -->
@@ -25,7 +25,7 @@
         <frame posn="2 -11 1">
             
             <!-- BUTTON: Contacts -->
-            <!-- Background container for the button (--bg-2 / Dark Button state) -->
+            <!-- Background container for the button bg-2 / Dark Button state -->
             <!-- The 'manialink' action is bound directly to the quad for full-box clickability -->
             <quad posn="0 0 0" sizen="46 6" halign="left" valign="top" bgcolor="222630ff" manialink="tempoContacts"/>
             
