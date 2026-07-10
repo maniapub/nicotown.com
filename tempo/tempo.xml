@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="1">
 
-    <!-- Container shifted down and right to clear screen borders perfectly -->
+    <!-- Main Container Layout -->
     <frame posn="-62 45 0" halign="left" valign="top">
         
-        <!-- Header Profile Section -->
+        <!-- Header Section -->
         <frame posn="0 0 0">
-            <!-- Background panel expanded to 65 width to fit the longer title without clipping -->
             <quad sizen="65 6.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem"/>
-            <!-- Accent border under the name -->
             <quad posn="0 -6.5 1" sizen="65 0.4" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
-            <!-- New Title Text -->
             <label posn="2 -3.25 2" halign="left" valign="center" style="TextStatic" scale="1.1" text="$835〠$222।$fffтємρ๏'s Landing Page"/>
         </frame>
         
-        <!-- Navigation / Button Section -->
+        <!-- Contact Info Header Label -->
         <frame posn="0 -9 0">
+            <label posn="0 0 1" halign="left" valign="top" style="TextStatic" scale="0.9" text="$aaaContact Info:"/>
+        </frame>
+
+        <!-- Social Media Buttons Grid (Stacked cleanly below header) -->
+        <frame posn="0 -13 0">
             
-            <!-- THE BUTTON CONTAINER -->
-            <quad posn="0 0 0" sizen="35 6" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav" manialink="tempoContacts"/>
-            
-            <!-- Sharp Left TUI Border Accent Strip -->
-            <quad posn="0 0 1" sizen="0.8 6" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
-            
-            <!-- BUTTON TEXT -->
-            <label posn="3 -3 2" halign="left" valign="center" style="TextStatic" scale="1" text="$h$09fContacts" manialink="tempoContacts"/>
+            <!-- BUTTON 1: Discord -->
+            <frame posn="0 0 0">
+                <quad sizen="45 5" halign="left" valign="top" bgcolor="222630ff" url="https://discordapp.com/users/1177664868690702367"/>
+                <quad posn="0 0 1" sizen="0.6 5" halign="left" valign="top" bgcolor="a0c5feff"/>
+                <label posn="2.5 -2.5 2" halign="left" valign="center" style="TextStatic" scale="0.95" text="$h$09fDiscord" url="https://discordapp.com/users/1177664868690702367"/>
+            </frame>
+
+            <!-- BUTTON 2: Twitter / X (Shifted down Y by 6 units) -->
+            <frame posn="0 -6 0">
+                <quad sizen="45 5" halign="left" valign="top" bgcolor="222630ff" url="https://x.com/uberbugTG"/>
+                <quad posn="0 0 1" sizen="0.6 5" halign="left" valign="top" bgcolor="a0c5feff"/>
+                <label posn="2.5 -2.5 2" halign="left" valign="center" style="TextStatic" scale="0.95" text="$h$09fTwitter / X" url="https://x.com/uberbugTG"/>
+            </frame>
+
+            <!-- BUTTON 3: Telegram (Shifted down Y by 12 units) -->
+            <frame posn="0 -12 0">
+                <quad sizen="45 5" halign="left" valign="top" bgcolor="222630ff" url="http://t.me/uberbug"/>
+                <quad posn="0 0 1" sizen="0.6 5" halign="left" valign="top" bgcolor="a0c5feff"/>
+                <label posn="2.5 -2.5 2" halign="left" valign="center" style="TextStatic" scale="0.95" text="$h$09fTelegram" url="http://t.me/uberbug"/>
+            </frame>
 
         </frame>
 
