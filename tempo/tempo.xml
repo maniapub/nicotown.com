@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="1">
 
-    <!-- Top Left Container (Slightly offset from edge to prevent clipping) -->
+    <!-- System24 Discord TUI Container -->
     <frame posn="-62 46 0" halign="left" valign="top">
         
-        <!-- Header / Nickname Section -->
-        <frame posn="0 0 0">
-            <!-- Subtle dark background card for the name -->
-            <quad sizen="45 7" halign="left" valign="center" style="BgsPlayerCard" substyle="BgCardSystem"/>
-            <!-- Nickname text overlay -->
-            <label posn="2 0 1" halign="left" valign="center" style="TextStatic" scale="1.2" text="$835〠$222।$fff$iтємρ๏"/>
+        <!-- Main Sidebar Panel Background (--bg-4 / Main Background) -->
+        <!-- Gives a structured card feel so it doesn't look like floating text -->
+        <quad sizen="50 25" halign="left" valign="top" bgcolor="13161cff"/>
+        
+        <!-- Sharp Top Border Accent Line (--accent-1 / Cool Blue) -->
+        <quad posn="0 0 1" sizen="50 0.5" halign="left" valign="top" bgcolor="a0c5feff"/>
+
+        <!-- Header: User Profile Section -->
+        <frame posn="2 -3 1">
+            <!-- Username Display -->
+            <label posn="0 0 0" halign="left" valign="center" style="TextStatic" scale="1.1" text="$835〠$222।$fff$iтємρ๏"/>
+            
+            <!-- Muted Divider Line inside the card -->
+            <quad posn="0 -3 0" sizen="46 0.2" halign="left" valign="top" bgcolor="3d4352ff"/>
         </frame>
         
-        <!-- Interactive Navigation Section -->
-        <frame posn="0 -9 0">
-            <!-- Background element that acts as the visual button shape -->
-            <!-- The 'action' script style gives it an automatic hover glow effect -->
-            <quad sizen="25 6" halign="left" valign="center" style="Bgs1InZone" substyle="BgCardNav" manialink="tempoContacts"/>
+        <!-- Navigation Section / Buttons -->
+        <!-- Shifted below the divider line -->
+        <frame posn="2 -11 1">
             
-            <!-- Button Text Label (Slightly offset to center perfectly inside the quad) -->
-            <!-- We add the '$h' formatting tag to make the text change color on hover natively -->
-            <label posn="2 -0.5 1" halign="left" valign="center" style="TextLink" scale="1" text="$hContacts" manialink="tempoContacts"/>
+            <!-- BUTTON: Contacts -->
+            <!-- Background container for the button (--bg-2 / Dark Button state) -->
+            <!-- The 'manialink' action is bound directly to the quad for full-box clickability -->
+            <quad posn="0 0 0" sizen="46 6" halign="left" valign="top" bgcolor="222630ff" manialink="tempoContacts"/>
+            
+            <!-- Sharp Left Accent indicator border for active/focused feel -->
+            <quad posn="0 0 1" sizen="0.8 6" halign="left" valign="top" bgcolor="87b3feff"/>
+            
+            <!-- Button Text (Slightly indented, using $h for hover brightness color swap) -->
+            <label posn="3 -3 2" halign="left" valign="center" style="TextLink" scale="0.9" text="$h$a0c5feContacts" manialink="tempoContacts"/>
+
         </frame>
 
     </frame>
