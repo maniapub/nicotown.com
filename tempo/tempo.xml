@@ -19,17 +19,29 @@
             <label posn="0 0 1" halign="left" valign="top" style="TextStatic" scale="0.9" text="$z$aaaContact Info:"/>
         </frame>
 
-        <!-- Social Media Buttons (self-contained button style, no background quads needed) -->
+        <!-- Social Media Buttons (individual card quad + label, matching header style) -->
         <frame posn="0 -13 0">
 
             <!-- BUTTON 1: Telegram -->
-            <label posn="0 0 1" sizen="18 4.5" halign="left" valign="top" style="CardButtonMedium" scale="0.85" text="$h$fffTelegram" url="http://t.me/uberbug"/>
+            <frame posn="0 0 0">
+                <quad sizen="18 4.5" halign="left" valign="top" style="Bgs1" substyle="BgTitle2" url="http://t.me/uberbug"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="2196F3FF"/>
+                <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$fffTelegram" url="http://t.me/uberbug"/>
+            </frame>
 
             <!-- BUTTON 2: Discord -->
-            <label posn="20 0 1" sizen="18 4.5" halign="left" valign="top" style="CardButtonMedium" scale="0.85" text="$h$fffDiscord" url="https://discordapp.com/users/1177664868690702367"/>
+            <frame posn="20 0 0">
+                <quad sizen="18 4.5" halign="left" valign="top" style="Bgs1" substyle="BgTitle2" url="https://discordapp.com/users/1177664868690702367"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="2196F3FF"/>
+                <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$fffDiscord" url="https://discordapp.com/users/1177664868690702367"/>
+            </frame>
 
             <!-- BUTTON 3: Twitter / X -->
-            <label posn="40 0 1" sizen="18 4.5" halign="left" valign="top" style="CardButtonMedium" scale="0.85" text="$h$fffTwitter" url="https://x.com/uberbugTG"/>
+            <frame posn="40 0 0">
+                <quad sizen="18 4.5" halign="left" valign="top" style="Bgs1" substyle="BgTitle2" url="https://x.com/uberbugTG"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="2196F3FF"/>
+                <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$fffTwitter" url="https://x.com/uberbugTG"/>
+            </frame>
 
         </frame>
 
