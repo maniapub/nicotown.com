@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="1">
 
+    <!-- Forces TrackMania to hide its default dark gray background/panels -->
+    <background hide="1"/>
+    <timeout>0</timeout>
+
     <!-- Main Container Layout -->
     <frame posn="-62 45 0" halign="left" valign="top">
         
         <!-- Header Section -->
         <frame posn="0 0 0">
             <quad sizen="65 6.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem"/>
-            <quad posn="0 -6.5 1" sizen="65 0.4" halign="left" valign="top" bgcolor="09f"/>
+            <quad posn="0 -6.5 1" sizen="65 0.4" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
             <label posn="2 -3.25 2" halign="left" valign="center" style="TextStatic" scale="1.1" text="$835Iconic$222।$fffтємρ๏'s Landing Page"/>
         </frame>
         
@@ -16,30 +20,27 @@
             <label posn="0 0 1" halign="left" valign="top" style="TextStatic" scale="0.9" text="$z$aaaContact Info:"/>
         </frame>
 
-        <!-- Social Media Buttons (Small, horizontal layout) -->
+        <!-- Social Media Buttons -->
         <frame posn="0 -13 0">
             
             <!-- BUTTON 1: Telegram -->
             <frame posn="0 0 0">
-                <!-- Main Box Clickable Container -->
-                <quad sizen="18 4.5" halign="left" valign="top" bgcolor="112" url="http://t.me/uberbug"/>
-                <!-- Pure Blue Left Edge Accent Strip -->
-                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="09f"/>
-                <!-- Button Text Layer -->
+                <quad sizen="18 4.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem" url="http://t.me/uberbug"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
                 <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$h$fffTelegram" url="http://t.me/uberbug"/>
             </frame>
 
-            <!-- BUTTON 2: Discord (Shifted right by 19.5 units) -->
+            <!-- BUTTON 2: Discord -->
             <frame posn="19.5 0 0">
-                <quad sizen="16 4.5" halign="left" valign="top" bgcolor="112" url="https://discordapp.com/users/1177664868690702367"/>
-                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="09f"/>
+                <quad sizen="16 4.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem" url="https://discordapp.com/users/1177664868690702367"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
                 <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$h$fffDiscord" url="https://discordapp.com/users/1177664868690702367"/>
             </frame>
 
-            <!-- BUTTON 3: Twitter / X (Shifted right by 37 units) -->
+            <!-- BUTTON 3: Twitter / X -->
             <frame posn="37 0 0">
-                <quad sizen="16 4.5" halign="left" valign="top" bgcolor="112" url="https://x.com/uberbugTG"/>
-                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="09f"/>
+                <quad sizen="16 4.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem" url="https://x.com/uberbugTG"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
                 <label posn="2 -2.25 2" halign="left" valign="center" style="TextStatic" scale="0.85" text="$h$fffTwitter" url="https://x.com/uberbugTG"/>
             </frame>
 
