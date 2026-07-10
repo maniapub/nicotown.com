@@ -16,28 +16,28 @@
             <label posn="0 0 1" halign="left" valign="top" style="TextStatic" scale="0.9" text="$aaaContact Info:"/>
         </frame>
 
-        <!-- Social Media Buttons Grid (Stacked cleanly below header) -->
+        <!-- Social Media Buttons (Small, horizontal layout) -->
         <frame posn="0 -13 0">
             
-            <!-- BUTTON 1: Discord -->
+            <!-- BUTTON 1: Telegram -->
             <frame posn="0 0 0">
-                <quad sizen="45 5" halign="left" valign="top" bgcolor="222630ff" url="https://discordapp.com/users/1177664868690702367"/>
-                <quad posn="0 0 1" sizen="0.6 5" halign="left" valign="top" bgcolor="a0c5feff"/>
-                <label posn="2.5 -2.5 2" halign="left" valign="center" style="TextStatic" scale="0.95" text="$h$09fDiscord" url="https://discordapp.com/users/1177664868690702367"/>
+                <quad sizen="18 4.5" halign="left" valign="top" bgcolor="222630ff" url="http://t.me/uberbug"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="a0c5feff"/>
+                <label posn="2 -2.25 2" halign="left" valign="center" style="TextLink" scale="0.85" text="Telegram" url="http://t.me/uberbug"/>
             </frame>
 
-            <!-- BUTTON 2: Twitter / X (Shifted down Y by 6 units) -->
-            <frame posn="0 -6 0">
-                <quad sizen="45 5" halign="left" valign="top" bgcolor="222630ff" url="https://x.com/uberbugTG"/>
-                <quad posn="0 0 1" sizen="0.6 5" halign="left" valign="top" bgcolor="a0c5feff"/>
-                <label posn="2.5 -2.5 2" halign="left" valign="center" style="TextStatic" scale="0.95" text="$h$09fTwitter / X" url="https://x.com/uberbugTG"/>
+            <!-- BUTTON 2: Discord (Shifted right on the X axis by 19.5 units) -->
+            <frame posn="19.5 0 0">
+                <quad sizen="16 4.5" halign="left" valign="top" bgcolor="222630ff" url="https://discordapp.com/users/1177664868690702367"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="a0c5feff"/>
+                <label posn="2 -2.25 2" halign="left" valign="center" style="TextLink" scale="0.85" text="Discord" url="https://discordapp.com/users/1177664868690702367"/>
             </frame>
 
-            <!-- BUTTON 3: Telegram (Shifted down Y by 12 units) -->
-            <frame posn="0 -12 0">
-                <quad sizen="45 5" halign="left" valign="top" bgcolor="222630ff" url="http://t.me/uberbug"/>
-                <quad posn="0 0 1" sizen="0.6 5" halign="left" valign="top" bgcolor="a0c5feff"/>
-                <label posn="2.5 -2.5 2" halign="left" valign="center" style="TextStatic" scale="0.95" text="$h$09fTelegram" url="http://t.me/uberbug"/>
+            <!-- BUTTON 3: Twitter / X (Shifted right on the X axis by 37 units) -->
+            <frame posn="37 0 0">
+                <quad sizen="16 4.5" halign="left" valign="top" bgcolor="222630ff" url="https://x.com/uberbugTG"/>
+                <quad posn="0 0 1" sizen="0.5 4.5" halign="left" valign="top" bgcolor="a0c5feff"/>
+                <label posn="2 -2.25 2" halign="left" valign="center" style="TextLink" scale="0.85" text="Twitter" url="https://x.com/uberbugTG"/>
             </frame>
 
         </frame>
