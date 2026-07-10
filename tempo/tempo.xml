@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <manialink version="1">
 
-    <!-- System24 Discord TUI Container -->
-    <frame posn="-62 46 0" halign="left" valign="top">
+    <!-- Container shifted down and right to clear screen borders perfectly -->
+    <frame posn="-62 45 0" halign="left" valign="top">
         
-        <!-- Main Sidebar Panel Background bg-4 / Main Background -->
-        <!-- Gives a structured card feel so it doesn't look like floating text -->
-        <quad sizen="50 25" halign="left" valign="top" bgcolor="13161cff"/>
-        
-        <!-- Sharp Top Border Accent Line accent-1 / Cool Blue -->
-        <quad posn="0 0 1" sizen="50 0.5" halign="left" valign="top" bgcolor="a0c5feff"/>
-
-        <!-- Header: User Profile Section -->
-        <frame posn="2 -3 1">
-            <!-- Username Display -->
-            <label posn="0 0 0" halign="left" valign="center" style="TextStatic" scale="1.1" text="$835〠$222।$fff$iтємρ๏"/>
-            
-            <!-- Muted Divider Line inside the card -->
-            <quad posn="0 -3 0" sizen="46 0.2" halign="left" valign="top" bgcolor="3d4352ff"/>
+        <!-- Header Profile Section -->
+        <frame posn="0 0 0">
+            <!-- Background panel for name -->
+            <quad sizen="45 6.5" halign="left" valign="top" style="BgsPlayerCard" substyle="BgCardSystem"/>
+            <!-- Accent border under the name -->
+            <quad posn="0 -6.5 1" sizen="45 0.4" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
+            <!-- Name Text -->
+            <label posn="2 -3.25 2" halign="left" valign="center" style="TextStatic" scale="1.1" text="$835〠$222।$fff$iтємρ๏"/>
         </frame>
         
-        <!-- Navigation Section / Buttons -->
-        <!-- Shifted below the divider line -->
-        <frame posn="2 -11 1">
+        <!-- Navigation / Actual Button Section -->
+        <frame posn="0 -9 0">
             
-            <!-- BUTTON: Contacts -->
-            <!-- Background container for the button bg-2 / Dark Button state -->
-            <!-- The 'manialink' action is bound directly to the quad for full-box clickability -->
-            <quad posn="0 0 0" sizen="46 6" halign="left" valign="top" bgcolor="222630ff" manialink="tempoContacts"/>
+            <!-- THE BUTTON CONTAINER -->
+            <!-- Using BgCardNav gives it a proper border, background, and built-in hover lighting -->
+            <quad posn="0 0 0" sizen="35 6" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav" manialink="tempoContacts"/>
             
-            <!-- Sharp Left Accent indicator border for active/focused feel -->
-            <quad posn="0 0 1" sizen="0.8 6" halign="left" valign="top" bgcolor="87b3feff"/>
+            <!-- Sharp Left TUI Border Accent Strip -->
+            <quad posn="0 0 1" sizen="0.8 6" halign="left" valign="top" style="Bgs1InZone" substyle="BgCardNav"/>
             
-            <!-- Button Text (Slightly indented, using $h for hover brightness color swap) -->
-            <label posn="3 -3 2" halign="left" valign="center" style="TextLink" scale="0.9" text="$h$a0c5feContacts" manialink="tempoContacts"/>
+            <!-- BUTTON TEXT -->
+            <!-- Using TextStatic removes the ugly underline. $h makes the text light up on hover. $09f is a clean blue. -->
+            <label posn="3 -3 2" halign="left" valign="center" style="TextStatic" scale="1" text="$h$09fContacts" manialink="tempoContacts"/>
 
         </frame>
 
