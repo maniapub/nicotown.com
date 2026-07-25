@@ -1,7 +1,7 @@
 <manialink version="1" name="tempo_playercard">
 
 	<!-- ==== Main window background ==== -->
-	<quad posn="-50 45 1" sizen="100 80" style="Bgs1InRace" substyle="BgWindow3" />
+	<quad posn="-50 45 1" sizen="100 98" style="Bgs1InRace" substyle="BgWindow3" />
 
 	<!-- ==== Title bar ==== -->
 	<quad posn="-50 45 2" sizen="100 12" style="Bgs1" substyle="BgTitle3_1" />
@@ -17,8 +17,12 @@
 	<label posn="-24 30.5 3" sizen="80 5" style="TextInfoSmall" text="Login: tempo   ·   ID: 65733" halign="left" />
 	<label posn="-24 26.5 3" sizen="80 5" style="TextInfoSmall" text="Zone: World &gt; Quinninup" halign="left" />
 
-	<!-- ==== Stats card background ==== -->
-	<quad posn="-46 9 2" sizen="92 16" style="Bgs1InRace" substyle="BgCard" />
+	<!-- ==== United (premium) member badge - fills the space freed up by removing the ladder zone-rank medal ==== -->
+	<quad posn="27 33 3" sizen="13 13" style="BgRaceScore2" substyle="Fame" />
+	<label posn="33.5 19.5 3" sizen="20 4" style="TextInfoSmall" text="United Member" halign="center" />
+
+	<!-- ==== Stats card background (2 rows x 2 columns) ==== -->
+	<quad posn="-46 9 2" sizen="92 26" style="Bgs1InRace" substyle="BgCard" />
 
 	<label posn="-30 6 3" sizen="40 6" style="TextValueMedium" text="391" halign="left" />
 	<label posn="-30 0 3" sizen="40 4" style="TextInfoSmall" text="World Rank" halign="left" />
@@ -26,18 +30,25 @@
 	<label posn="6 6 3" sizen="40 6" style="TextValueMedium" text="2 156 096" halign="left" />
 	<label posn="6 0 3" sizen="40 4" style="TextInfoSmall" text="Skill Points" halign="left" />
 
-	<!-- ==== Titles earned ====
+	<!-- Wins/losses abbreviated (111 191 -> 111.2k, 88 954 -> 89k) rather than full ladder numbers -->
+	<label posn="-30 -6 3" sizen="40 6" style="TextValueMedium" text="111.2k" halign="left" />
+	<label posn="-30 -12 3" sizen="40 4" style="TextInfoSmall" text="Wins" halign="left" />
+
+	<label posn="6 -6 3" sizen="40 6" style="TextValueMedium" text="89k" halign="left" />
+	<label posn="6 -12 3" sizen="40 4" style="TextInfoSmall" text="Losses" halign="left" />
+
+	<!-- ==== Player tags (centered) ====
 	     player.trackmania.com (used by the raw stats API) is dead, but the same images are served
 	     from player-backend.trackmania.com over plain HTTP - confirmed working via curl. -->
-	<label posn="-46 -10 3" sizen="26 5" style="TextInfoSmall" text="Titles Earned:" halign="left" />
-	<quad posn="-16 -8.5 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71477.png" />
-	<quad posn="-4 -8.5 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71479.png" />
+	<label posn="0 -20 3" sizen="90 5" style="TextInfoSmall" text="Player Tags:" halign="center" />
+	<quad posn="-11 -26 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71477.png" />
+	<quad posn="1 -26 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71479.png" />
 
 	<!-- ==== Back button ==== -->
-	<quad posn="-16 -19 3" sizen="32 6" style="Bgs1" substyle="NavButton" />
-	<label posn="0 -20.5 4" sizen="28 5" style="TextButtonMedium" text="Back" halign="center" action="Back" />
+	<quad posn="-16 -38 3" sizen="32 6" style="Bgs1" substyle="NavButton" />
+	<label posn="0 -39.5 4" sizen="28 5" style="TextButtonMedium" text="Back" halign="center" action="Back" />
 
 	<!-- ==== Footer ==== -->
-	<label posn="-48 -30 3" sizen="70 3" style="TextStaticSmall" text="Data: stats.trackmaniaforever.com" halign="left" />
+	<label posn="0 -48 3" sizen="90 3" style="TextStaticSmall" text="Data: stats.trackmaniaforever.com" halign="center" />
 
 </manialink>
