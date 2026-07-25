@@ -26,8 +26,12 @@
 	<label posn="6 6 3" sizen="40 6" style="TextValueMedium" text="2 156 096" halign="left" />
 	<label posn="6 0 3" sizen="40 4" style="TextInfoSmall" text="Skill Points" halign="left" />
 
-	<!-- ==== Titles earned (text-only: the StarGold icon substyle isn't available on this client, rendered blank) ==== -->
-	<label posn="-46 -10 3" sizen="50 5" style="TextInfoSmall" text="Titles Earned: 2" halign="left" />
+	<!-- ==== Titles earned ====
+	     player.trackmania.com (used by the raw stats API) is dead, but the same images are served
+	     from player-backend.trackmania.com over plain HTTP - confirmed working via curl. -->
+	<label posn="-46 -10 3" sizen="26 5" style="TextInfoSmall" text="Titles Earned:" halign="left" />
+	<quad posn="-16 -8.5 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71477.png" />
+	<quad posn="-4 -8.5 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71479.png" />
 
 	<!-- ==== Back button ==== -->
 	<quad posn="-16 -19 3" sizen="32 6" style="Bgs1" substyle="NavButton" />
