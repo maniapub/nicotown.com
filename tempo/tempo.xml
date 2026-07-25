@@ -21,21 +21,15 @@
 	<quad posn="27 29 3" sizen="13 13" style="BgRaceScore2" substyle="Fame" />
 	<label posn="33.5 15.5 3" sizen="20 4" style="TextStaticSmall" text="United Member" halign="center" />
 
-	<!-- ==== Stats card background (2 rows x 2 columns) ==== -->
+	<!-- ==== Stats card background: single left-aligned column, divider down the middle, ====
+	     right half left empty for custom content. Skill points abbreviated like Wins/Losses now. -->
 	<quad posn="-46 5 2" sizen="92 26" style="Bgs1InRace" substyle="BgCard" />
+	<quad posn="-0.2 5 3" sizen="0.4 26" style="Bgs1InRace" substyle="BgSlider" />
 
-	<label posn="-30 2 3" sizen="40 6" style="TextValueMedium" text="391" halign="left" />
-	<label posn="-30 -4 3" sizen="40 4" style="TextStaticSmall" text="World Rank" halign="left" />
-
-	<label posn="6 2 3" sizen="40 6" style="TextValueMedium" text="2 156 096" halign="left" />
-	<label posn="6 -4 3" sizen="40 4" style="TextStaticSmall" text="Skill Points" halign="left" />
-
-	<!-- Wins/losses abbreviated (111 191 -> 111.2k, 88 954 -> 89k) rather than full ladder numbers -->
-	<label posn="-30 -10 3" sizen="40 6" style="TextValueMedium" text="111.2k" halign="left" />
-	<label posn="-30 -16 3" sizen="40 4" style="TextStaticSmall" text="Wins" halign="left" />
-
-	<label posn="6 -10 3" sizen="40 6" style="TextValueMedium" text="89k" halign="left" />
-	<label posn="6 -16 3" sizen="40 4" style="TextStaticSmall" text="Losses" halign="left" />
+	<label posn="-42 3 3" sizen="40 5" style="TextValueMedium" text="World Rank: 391" halign="left" />
+	<label posn="-42 -2.5 3" sizen="40 5" style="TextValueMedium" text="Skill Points: 2.1m" halign="left" />
+	<label posn="-42 -8 3" sizen="40 5" style="TextValueMedium" text="Wins: 111.2k" halign="left" />
+	<label posn="-42 -13.5 3" sizen="40 5" style="TextValueMedium" text="Losses: 89k" halign="left" />
 
 	<!-- ==== Player tags (centered) ====
 	     player.trackmania.com (used by the raw stats API) is dead, but the same images are served
