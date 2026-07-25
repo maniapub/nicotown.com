@@ -3,8 +3,8 @@
 	<!-- ==== Main window background (content is symmetric top/bottom -> centered on screen) ==== -->
 	<quad posn="-50 45 1" sizen="100 90" style="Bgs1InRace" substyle="BgWindow3" />
 
-	<!-- ==== Title bar (grown 12->16 tall so the 2-line title+nickname block fits without spilling out) ==== -->
-	<quad posn="-50 45 2" sizen="100 16" style="Bgs1" substyle="BgTitle3_1" />
+	<!-- ==== Title bar ==== -->
+	<quad posn="-50 45 2" sizen="100 12" style="Bgs1" substyle="BgTitle3_1" />
 	<quad posn="-46 42.5 3" sizen="7 7" style="Icons64x64_1" substyle="IconPlayers" />
 	<label posn="-37 41 3" sizen="80 7" style="TextTitle1" text="Player Card" halign="left" />
 
@@ -13,7 +13,7 @@
 	<quad posn="-43.5 23.5 3" sizen="13 13" style="Icons128x128_1" substyle="Profile" />
 
 	<!-- ==== Nickname (raw color codes from the account) ==== -->
-	<label posn="-24 36 3" sizen="80 6" style="TextCardScores2" text="$835〠$222।$fff$iтємρ๏" halign="left" />
+	<label posn="-18 40 3" sizen="80 6" style="TextCardScores2" text="$835〠$222।$fff$iтємρ๏" halign="left" />
 	<label posn="-24 26.5 3" sizen="80 5" style="TextStaticSmall" text="Login: tempo   ·   ID: 65733" halign="left" />
 	<label posn="-24 22.5 3" sizen="80 5" style="TextStaticSmall" text="Zone: World &gt; Quinninup" halign="left" />
 
