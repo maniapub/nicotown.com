@@ -44,7 +44,7 @@
 	<quad posn="-11 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71477.png" />
 	<quad posn="1 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71479.png" />
 
-	<!-- ==== Footer ==== -->
-	<label posn="0 -42 3" sizen="90 3" style="TextStaticSmall" text="Data: stats.trackmaniaforever.com" halign="center" />
+	<!-- ==== Footer (links out to a plain URL via $l[...]$l, not a manialink so not $h) ==== -->
+	<label posn="0 -42 3" sizen="90 3" style="TextStaticSmall" text="Data: $l[https://ul.unitedascenders.xyz/lookup?login=tempo]UnitedLadder$l" halign="center" />
 
 </manialink>
