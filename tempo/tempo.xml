@@ -14,7 +14,7 @@
 
 	<!-- ==== Nickname (raw color codes from the account) ==== -->
 	<label posn="-18 40.7 3" sizen="80 6" style="TextCardScores2" text="$835〠$222।$fff$iтємρ๏" halign="left" />
-	<label posn="-24 26.5 3" sizen="80 5" style="TextStaticSmall" text="Login: tempo   ·   ID: 65733" halign="left" />
+	<label posn="-24 26.5 3" sizen="80 5" style="TextStaticSmall" text="Login: tempo · ID: 65733" halign="left" />
 	<label posn="-24 22.5 3" sizen="80 5" style="TextStaticSmall" text="Zone: World &gt; Quinninup" halign="left" />
 
 	<!-- ==== United (premium) member badge ==== -->
