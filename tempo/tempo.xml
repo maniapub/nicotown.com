@@ -31,6 +31,11 @@
 	<label posn="-42 -8 3" sizen="40 5" style="TextValueMedium" text="Wins: 111.2k" halign="left" />
 	<label posn="-42 -13.5 3" sizen="40 5" style="TextValueMedium" text="Losses: 89k" halign="left" />
 
+	<!-- ==== Right half: custom content (clickable link via $l[...]$l since it's a plain URL) ==== -->
+	<label posn="2 3 3" sizen="16 5" style="TextValueMedium" text="Contact:" halign="left" />
+	<label posn="18 3 3" sizen="26 5" style="TextValueMedium" text="$l[https://haunt.gg/pix]https://haunt.gg/pix$l" halign="left" />
+	<label posn="2 -4 3" sizen="42 16" style="TextStaticSmall" text="Despite everything that happens I'm still getting better at this game. At some point I will reach top 100 in the world under the Solo Rank." halign="left" />
+
 	<!-- ==== Player tags (centered) ====
 	     player.trackmania.com (used by the raw stats API) is dead, but the same images are served
 	     from player-backend.trackmania.com over plain HTTP - confirmed working via curl. -->
