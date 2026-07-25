@@ -20,20 +20,18 @@
 	<!-- ==== Stats card background ==== -->
 	<quad posn="-46 9 2" sizen="92 16" style="Bgs1InRace" substyle="BgCard" />
 
-	<label posn="-30 13 3" sizen="40 6" style="TextValueMedium" text="391" halign="left" />
-	<label posn="-30 9 3" sizen="40 4" style="TextInfoSmall" text="World Rank" halign="left" />
+	<label posn="-30 6 3" sizen="40 6" style="TextValueMedium" text="391" halign="left" />
+	<label posn="-30 0 3" sizen="40 4" style="TextInfoSmall" text="World Rank" halign="left" />
 
-	<label posn="6 13 3" sizen="40 6" style="TextValueMedium" text="2 156 096" halign="left" />
-	<label posn="6 9 3" sizen="40 4" style="TextInfoSmall" text="Skill Points" halign="left" />
+	<label posn="6 6 3" sizen="40 6" style="TextValueMedium" text="2 156 096" halign="left" />
+	<label posn="6 0 3" sizen="40 4" style="TextInfoSmall" text="Skill Points" halign="left" />
 
-	<!-- ==== Titles earned (uses an in-game icon asset instead of the dead player.trackmania.com image host) ==== -->
+	<!-- ==== Titles earned (text-only: the StarGold icon substyle isn't available on this client, rendered blank) ==== -->
 	<label posn="-46 -10 3" sizen="50 5" style="TextInfoSmall" text="Titles Earned: 2" halign="left" />
-	<quad posn="-10 -9.5 3" sizen="6 6" style="Icons64x64_1" substyle="StarGold" />
-	<quad posn="-2 -9.5 3" sizen="6 6" style="Icons64x64_1" substyle="StarGold" />
 
 	<!-- ==== Back button ==== -->
 	<quad posn="-16 -19 3" sizen="32 6" style="Bgs1" substyle="NavButton" />
-	<label posn="0 -16.5 4" sizen="28 5" style="TextButtonMedium" text="Back" halign="center" action="Back" />
+	<label posn="0 -20.5 4" sizen="28 5" style="TextButtonMedium" text="Back" halign="center" action="Back" />
 
 	<!-- ==== Footer ==== -->
 	<label posn="-48 -30 3" sizen="70 3" style="TextStaticSmall" text="Data: stats.trackmaniaforever.com" halign="left" />
