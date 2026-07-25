@@ -1,65 +1,41 @@
 <manialink version="1" name="tempo_playercard">
 
 	<!-- ==== Main window background ==== -->
-	<quad posn="-50 40 1" sizen="100 78" style="Bgs1InRace" substyle="BgWindow3" />
+	<quad posn="-50 45 1" sizen="100 80" style="Bgs1InRace" substyle="BgWindow3" />
 
 	<!-- ==== Title bar ==== -->
-	<quad posn="-50 40 2" sizen="100 12" style="Bgs1" substyle="BgTitle3_1" />
-	<quad posn="-46 37.5 3" sizen="7 7" style="Icons64x64_1" substyle="IconPlayers" />
-	<label posn="-37 36 3" sizen="80 7" style="TextTitle1" text="Player Card" halign="left" />
+	<quad posn="-50 45 2" sizen="100 12" style="Bgs1" substyle="BgTitle3_1" />
+	<quad posn="-46 42.5 3" sizen="7 7" style="Icons64x64_1" substyle="IconPlayers" />
+	<label posn="-37 41 3" sizen="80 7" style="TextTitle1" text="Player Card" halign="left" />
 
 	<!-- ==== Avatar / profile icon block ==== -->
-	<quad posn="-46 25 2" sizen="18 18" style="BgsPlayerCard" substyle="BgPlayerCardBig" />
-	<quad posn="-43.5 22.5 3" sizen="13 13" style="Icons128x128_1" substyle="Profile" />
+	<quad posn="-46 30 2" sizen="18 18" style="BgsPlayerCard" substyle="BgPlayerCardBig" />
+	<quad posn="-43.5 27.5 3" sizen="13 13" style="Icons128x128_1" substyle="Profile" />
 
 	<!-- ==== Nickname (raw color codes from the account) ==== -->
-	<label posn="-24 31 3" sizen="80 8" style="TextCardScores2" text="$835〠$222।$fff$iтємρ๏" halign="left" />
-	<label posn="-24 25.5 3" sizen="80 5" style="TextInfoSmall" text="Login: tempo   ·   ID: 65733" halign="left" />
-	<label posn="-24 21.5 3" sizen="80 5" style="TextInfoSmall" text="Zone: World &gt; Quinninup" halign="left" />
-
-	<!-- ==== Zone rank medal (#1 in Quinninup) ==== -->
-	<quad posn="34 30 3" sizen="13 13" style="MedalsBig" substyle="MedalGoldPerspective" />
-	<label posn="34 16.5 3" sizen="16 4" style="TextInfoSmall" text="Zone Rank #1" halign="center" />
+	<label posn="-24 36 3" sizen="80 8" style="TextCardScores2" text="$835〠$222।$fff$iтємρ๏" halign="left" />
+	<label posn="-24 30.5 3" sizen="80 5" style="TextInfoSmall" text="Login: tempo   ·   ID: 65733" halign="left" />
+	<label posn="-24 26.5 3" sizen="80 5" style="TextInfoSmall" text="Zone: World &gt; Quinninup" halign="left" />
 
 	<!-- ==== Stats card background ==== -->
 	<quad posn="-46 9 2" sizen="92 16" style="Bgs1InRace" substyle="BgCard" />
 
-	<quad posn="-43 6.5 3" sizen="5 5" style="Icons64x64_1" substyle="IconLeaguesLadder" />
-	<label posn="-36 8 3" sizen="24 5" style="TextValueMedium" text="90000" halign="left" />
-	<label posn="-36 4 3" sizen="24 4" style="TextInfoSmall" text="Ladder Pts (max)" halign="left" />
+	<label posn="-30 13 3" sizen="40 6" style="TextValueMedium" text="391" halign="left" />
+	<label posn="-30 9 3" sizen="40 4" style="TextInfoSmall" text="World Rank" halign="left" />
 
-	<label posn="-14 8 3" sizen="20 5" style="TextValueMedium" text="391" halign="left" />
-	<label posn="-14 4 3" sizen="20 4" style="TextInfoSmall" text="Skill Rank" halign="left" />
+	<label posn="6 13 3" sizen="40 6" style="TextValueMedium" text="2 156 096" halign="left" />
+	<label posn="6 9 3" sizen="40 4" style="TextInfoSmall" text="Skill Points" halign="left" />
 
-	<label posn="6 8 3" sizen="24 5" style="TextValueMedium" text="2 156 096" halign="left" />
-	<label posn="6 4 3" sizen="24 4" style="TextInfoSmall" text="Skill Points" halign="left" />
-
-	<label posn="28 8 3" sizen="18 5" style="TextValueMedium" text="#151" halign="left" />
-	<label posn="28 4 3" sizen="18 4" style="TextInfoSmall" text="World Rank" halign="left" />
-
-	<!-- ==== Stadium ladder record (wins / draws / losses) ==== -->
-	<quad posn="-46 -9 2" sizen="92 14" style="Bgs1InRace" substyle="BgCardSystem" />
-	<label posn="-43 -11.5 3" sizen="40 5" style="TextInfoSmall" text="Stadium Ladder Record" halign="left" />
-
-	<quad posn="-43 -16.5 3" sizen="5 5" style="Icons64x64_1" substyle="Green" />
-	<label posn="-36 -15.5 3" sizen="26 5" style="TextValueMedium" text="111 191 Wins" halign="left" />
-
-	<quad posn="-9 -16.5 3" sizen="5 5" style="Icons64x64_1" substyle="Empty" />
-	<label posn="-2 -15.5 3" sizen="22 5" style="TextValueMedium" text="68 Draws" halign="left" />
-
-	<quad posn="16 -16.5 3" sizen="5 5" style="Icons64x64_1" substyle="RedHigh" />
-	<label posn="22 -15.5 3" sizen="26 5" style="TextValueMedium" text="88 954 Losses" halign="left" />
-
-	<!-- ==== Title / achievement tags earned by the player ==== -->
-	<label posn="-46 -25 3" sizen="40 5" style="TextInfoSmall" text="Titles Earned:" halign="left" />
-	<quad posn="-16 -27 3" sizen="8 8" image="http://player.trackmania.com/tags/71477.png" />
-	<quad posn="-6 -27 3" sizen="8 8" image="http://player.trackmania.com/tags/71479.png" />
+	<!-- ==== Titles earned (uses an in-game icon asset instead of the dead player.trackmania.com image host) ==== -->
+	<label posn="-46 -10 3" sizen="50 5" style="TextInfoSmall" text="Titles Earned: 2" halign="left" />
+	<quad posn="-10 -9.5 3" sizen="6 6" style="Icons64x64_1" substyle="StarGold" />
+	<quad posn="-2 -9.5 3" sizen="6 6" style="Icons64x64_1" substyle="StarGold" />
 
 	<!-- ==== Back button ==== -->
-	<quad posn="-16 -32 3" sizen="32 6" style="Bgs1" substyle="NavButton" />
-	<label posn="0 -29.5 4" sizen="28 5" style="TextButtonMedium" text="Back" halign="center" action="Back" />
+	<quad posn="-16 -19 3" sizen="32 6" style="Bgs1" substyle="NavButton" />
+	<label posn="0 -16.5 4" sizen="28 5" style="TextButtonMedium" text="Back" halign="center" action="Back" />
 
 	<!-- ==== Footer ==== -->
-	<label posn="-48 -35.5 3" sizen="70 3" style="TextStaticSmall" text="Data: stats.trackmaniaforever.com" halign="left" />
+	<label posn="-48 -30 3" sizen="70 3" style="TextStaticSmall" text="Data: stats.trackmaniaforever.com" halign="left" />
 
 </manialink>
