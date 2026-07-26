@@ -28,8 +28,8 @@
 
 	<label posn="-42 3 3" sizen="40 5" style="TextValueMedium" text="World Rank: 391" halign="left" />
 	<label posn="-42 -2.5 3" sizen="40 5" style="TextValueMedium" text="Skill Points: 2.1m" halign="left" />
-	<label posn="-42 -8 3" sizen="40 5" style="TextValueMedium" text="Wins: 111.2k" halign="left" />
-	<label posn="-42 -13.5 3" sizen="40 5" style="TextValueMedium" text="Losses: 89k" halign="left" />
+	<label posn="-42 -8 3" sizen="40 5" style="TextValueMedium" text="Wins: 114.4k" halign="left" />
+	<label posn="-42 -13.5 3" sizen="40 5" style="TextValueMedium" text="Losses: 5.3m" halign="left" />
 
 	<!-- ==== Right half: custom content (clickable link via $l[...]$l since it's a plain URL) ==== -->
 	<label posn="2 3 3" sizen="16 5" style="TextValueMedium" text="Contact:" halign="left" />
@@ -42,6 +42,7 @@
 	<!-- ==== Player tags (centered) ====
 	     player.trackmania.com (used by the raw stats API) is dead, but the same images are served
 	     from player-backend.trackmania.com over plain HTTP - confirmed working via curl. -->
+	<quad posn="-16 -22 2" sizen="32 17" style="Bgs1InRace" substyle="BgCard" />
 	<label posn="0 -24 3" sizen="90 5" style="TextStaticSmall" text="Player Tags:" halign="center" />
 	<quad posn="-11 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71477.png" />
 	<quad posn="1 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71479.png" />
