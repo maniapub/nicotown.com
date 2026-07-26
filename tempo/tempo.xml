@@ -1,7 +1,7 @@
 <manialink version="1" name="tempo_playercard">
 
 	<!-- ==== Main window background (content is symmetric top/bottom -> centered on screen) ==== -->
-	<quad posn="-50 45 1" sizen="100 90" style="Bgs1InRace" substyle="BgWindow3" />
+	<quad posn="-50 45 1" sizen="100 90" image="http://nicotown.com/tempo/Background.png" />
 
 	<!-- ==== Title bar ==== -->
 	<quad posn="-50 45 2" sizen="100 12" style="Bgs1" substyle="BgTitle3_1" />
@@ -42,7 +42,7 @@
 	<!-- ==== Player tags (centered) ====
 	     player.trackmania.com (used by the raw stats API) is dead, but the same images are served
 	     from player-backend.trackmania.com over plain HTTP - confirmed working via curl. -->
-	<quad posn="-16 -22 2" sizen="32 17" image="http://nicotown.com/tempo/Background.png" />
+	<quad posn="-16 -22 2" sizen="32 17" style="Bgs1InRace" substyle="BgCard" />
 	<label posn="0 -24 3" sizen="90 5" style="TextStaticSmall" text="Player Tags:" halign="center" />
 	<quad posn="-11 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71477.png" />
 	<quad posn="1 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71479.png" />
