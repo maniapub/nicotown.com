@@ -1,7 +1,10 @@
 <manialink version="1" name="tempo_playercard">
 
+	<!-- ==== Backdrop, sits behind the whole card so it shows in the margins around it ==== -->
+	<quad posn="-65 55 0" sizen="130 110" image="http://nicotown.com/tempo/Background.png" />
+
 	<!-- ==== Main window background (content is symmetric top/bottom -> centered on screen) ==== -->
-	<quad posn="-50 45 1" sizen="100 90" image="http://nicotown.com/tempo/Background.png" />
+	<quad posn="-50 45 1" sizen="100 90" style="Bgs1InRace" substyle="BgWindow3" />
 
 	<!-- ==== Title bar ==== -->
 	<quad posn="-50 45 2" sizen="100 12" style="Bgs1" substyle="BgTitle3_1" />
