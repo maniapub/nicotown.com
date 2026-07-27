@@ -18,10 +18,10 @@
 	<label posn="-15.33 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]skip$h" halign="center" />
 	<label posn="-5.11 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]/replay$h" halign="center" />
 	<label posn="5.11 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]/skip$h" halign="center" />
-	<label posn="15.33 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ð¼$h" halign="center" />
-	<label posn="25.56 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Î²$h" halign="center" />
-	<label posn="35.78 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¸¿$h" halign="center" />
-	<label posn="-46.00 25.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ò°$h" halign="center" />
+	<label posn="15.33 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]м$h" halign="center" />
+	<label posn="25.56 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]β$h" halign="center" />
+	<label posn="35.78 29.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]฿$h" halign="center" />
+	<label posn="-46.00 25.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ұ$h" halign="center" />
 	<label posn="-35.78 25.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥®à¥$h" halign="center" />
 	<label posn="-25.56 25.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¹Ì¯Í¡$h" halign="center" />
 	<label posn="-15.33 25.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¹Ì¯Í¡  Ã $h" halign="center" />
@@ -31,50 +31,50 @@
 	<label posn="25.56 25.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã·$h" halign="center" />
 	<label posn="35.78 25.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã$h" halign="center" />
 	<label posn="-46.00 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã$h" halign="center" />
-	<label posn="-35.78 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Î©$h" halign="center" />
+	<label posn="-35.78 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ω$h" halign="center" />
 	<label posn="-25.56 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Î$h" halign="center" />
-	<label posn="-15.33 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Î£$h" halign="center" />
-	<label posn="-5.11 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Î¨$h" halign="center" />
+	<label posn="-15.33 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Σ$h" halign="center" />
+	<label posn="-5.11 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ψ$h" halign="center" />
 	<label posn="5.11 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ï$h" halign="center" />
-	<label posn="15.33 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Î¶$h" halign="center" />
-	<label posn="25.56 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Â¾$h" halign="center" />
-	<label posn="35.78 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Â½$h" halign="center" />
+	<label posn="15.33 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ζ$h" halign="center" />
+	<label posn="25.56 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]¾$h" halign="center" />
+	<label posn="35.78 22.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]½$h" halign="center" />
 	<label posn="-46.00 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]×$h" halign="center" />
 	<label posn="-35.78 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]×$h" halign="center" />
 	<label posn="-25.56 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]×$h" halign="center" />
-	<label posn="-15.33 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Â¿$h" halign="center" />
-	<label posn="-5.11 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Òº$h" halign="center" />
+	<label posn="-15.33 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]¿$h" halign="center" />
+	<label posn="-5.11 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Һ$h" halign="center" />
 	<label posn="5.11 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]:v$h" halign="center" />
-	<label posn="15.33 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]:Îµ$h" halign="center" />
+	<label posn="15.33 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]:ε$h" halign="center" />
 	<label posn="25.56 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]3:$h" halign="center" />
-	<label posn="35.78 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Îµ:$h" halign="center" />
-	<label posn="-46.00 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Î»$h" halign="center" />
+	<label posn="35.78 18.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ε:$h" halign="center" />
+	<label posn="-46.00 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]λ$h" halign="center" />
 	<label posn="-35.78 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¤$h" halign="center" />
 	<label posn="-25.56 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ì$h" halign="center" />
 	<label posn="-15.33 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo](^^)$h" halign="center" />
 	<label posn="-5.11 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã( ã-ãã)$h" halign="center" />
 	<label posn="5.11 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã¾$h" halign="center" />
-	<label posn="15.33 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]å½¡$h" halign="center" />
+	<label posn="15.33 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]彡$h" halign="center" />
 	<label posn="25.56 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã$h" halign="center" />
-	<label posn="35.78 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo](Â°,,Â°)$h" halign="center" />
+	<label posn="35.78 15.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo](°,,°)$h" halign="center" />
 	<label posn="-46.00 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo](/)$h" halign="center" />
 	<label posn="-35.78 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ä¸$h" halign="center" />
 	<label posn="-25.56 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ä¸ä¸$h" halign="center" />
 	<label posn="-15.33 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ï¹$h" halign="center" />
-	<label posn="-5.11 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Îµ$h" halign="center" />
+	<label posn="-5.11 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ε$h" halign="center" />
 	<label posn="5.11 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ï$h" halign="center" />
 	<label posn="15.33 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ï¾$h" halign="center" />
 	<label posn="25.56 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ï¾ã®ï¾$h" halign="center" />
 	<label posn="35.78 12.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]( ï¾ã®ï¾)$h" halign="center" />
-	<label posn="-46.00 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ï½¥ï½¥$h" halign="center" />
-	<label posn="-35.78 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]( ï½¥ï½¥)$h" halign="center" />
-	<label posn="-25.56 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ï¸¿$h" halign="center" />
+	<label posn="-46.00 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]･･$h" halign="center" />
+	<label posn="-35.78 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]( ･･)$h" halign="center" />
+	<label posn="-25.56 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]︿$h" halign="center" />
 	<label posn="-15.33 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã®$h" halign="center" />
-	<label posn="-5.11 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ã³$h" halign="center" />
+	<label posn="-5.11 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ó$h" halign="center" />
 	<label posn="5.11 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo](ã¤.ã¤)$h" halign="center" />
 	<label posn="15.33 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]å$h" halign="center" />
 	<label posn="25.56 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã$h" halign="center" />
-	<label posn="35.78 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ö¾Ö¿$h" halign="center" />
+	<label posn="35.78 8.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]־ֿ$h" halign="center" />
 	<label posn="-46.00 5.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]××$h" halign="center" />
 	<label posn="-35.78 5.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]×$h" halign="center" />
 	<label posn="-25.56 5.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]â$h" halign="center" />
@@ -86,12 +86,12 @@
 	<label posn="35.78 5.20 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Æ$h" halign="center" />
 	<label posn="-46.00 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ò$h" halign="center" />
 	<label posn="-35.78 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]á$h" halign="center" />
-	<label posn="-25.56 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Â°,Â°$h" halign="center" />
+	<label posn="-25.56 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]°,°$h" halign="center" />
 	<label posn="-15.33 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ÏÌ²Ì²Í¡$h" halign="center" />
 	<label posn="-5.11 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]á$h" halign="center" />
-	<label posn="5.11 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¤¿$h" halign="center" />
-	<label posn="15.33 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ï¸¼$h" halign="center" />
-	<label posn="25.56 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ï¸»$h" halign="center" />
+	<label posn="5.11 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ि$h" halign="center" />
+	<label posn="15.33 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]︼$h" halign="center" />
+	<label posn="25.56 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]︻$h" halign="center" />
 	<label posn="35.78 1.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã$h" halign="center" />
 	<label posn="-46.00 -1.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã$h" halign="center" />
 	<label posn="-35.78 -1.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã$h" halign="center" />
@@ -101,9 +101,9 @@
 	<label posn="5.11 -1.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã¡$h" halign="center" />
 	<label posn="15.33 -1.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã$h" halign="center" />
 	<label posn="25.56 -1.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ã©$h" halign="center" />
-	<label posn="35.78 -1.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥ª$h" halign="center" />
-	<label posn="-46.00 -5.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ã¸$h" halign="center" />
-	<label posn="-35.78 -5.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¸°$h" halign="center" />
+	<label posn="35.78 -1.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]४$h" halign="center" />
+	<label posn="-46.00 -5.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ø$h" halign="center" />
+	<label posn="-35.78 -5.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ะ$h" halign="center" />
 	<label posn="-25.56 -5.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥$h" halign="center" />
 	<label posn="-15.33 -5.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥$h" halign="center" />
 	<label posn="-5.11 -5.00 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥$h" halign="center" />
@@ -115,14 +115,14 @@
 	<label posn="-35.78 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥$h" halign="center" />
 	<label posn="-25.56 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥$h" halign="center" />
 	<label posn="-15.33 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥$h" halign="center" />
-	<label posn="-5.11 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥¢$h" halign="center" />
+	<label posn="-5.11 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ॢ$h" halign="center" />
 	<label posn="5.11 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¤$h" halign="center" />
-	<label posn="15.33 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¤¼$h" halign="center" />
-	<label posn="25.56 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ö¾$h" halign="center" />
+	<label posn="15.33 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]़$h" halign="center" />
+	<label posn="25.56 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]־$h" halign="center" />
 	<label posn="35.78 -8.40 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]à¥à¥Ö¿$h" halign="center" />
 	<label posn="-46.00 -11.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]â$h" halign="center" />
-	<label posn="-35.78 -11.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Â·$h" halign="center" />
-	<label posn="-25.56 -11.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ï½¡$h" halign="center" />
+	<label posn="-35.78 -11.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]·$h" halign="center" />
+	<label posn="-25.56 -11.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]｡$h" halign="center" />
 	<label posn="-15.33 -11.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo](ã¥ï¿£ Â³ï¿£)ã¥$h" halign="center" />
 	<label posn="-5.11 -11.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]ndc$h" halign="center" />
 	<label posn="5.11 -11.80 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Ð¸×Ñ$h" halign="center" />
@@ -186,7 +186,7 @@
 	<label posn="-46.00 -35.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]manialink$h" halign="center" />
 	<label posn="-35.78 -35.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]1$h" halign="center" />
 	<label posn="-25.56 -35.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]%$h" halign="center" />
-	<label posn="-15.33 -35.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]Â§$h" halign="center" />
+	<label posn="-15.33 -35.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]§$h" halign="center" />
 	<label posn="-5.11 -35.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]tmnf$h" halign="center" />
 	<label posn="5.11 -35.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]$$$h" halign="center" />
 	<label posn="15.33 -35.60 3" sizen="9.52 3.1" style="TextStaticSmall" text="$h[tempo]yo$h" halign="center" />
