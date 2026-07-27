@@ -53,9 +53,10 @@
 	<!-- ==== ManiaLinks button ====
 	     NOTE: manialinksbutton.bik is a Bink VIDEO file, not an image - <quad image="..."> is a texture
 	     loader, so this almost certainly won't render. Wired up as requested; worth testing in-game.
-	     url points directly at the hosted tempolinks.xml file - the old "tempo:manialinks" registered
-	     code actually resolves to tempo.xml (this same player card), not the links list page. -->
-	<quad posn="19 -22 2" sizen="27 17" image="http://nicotown.com/tempo/manialinksbutton.bik" url="http://nicotown.com/tempo/tempolinks.xml" />
+	     Links to the plain-text list of all 180 registered codes (tempolinks.txt) instead of the
+	     old manialink grid page, which was removed. -->
+	<quad posn="19 -22 2" sizen="27 17" image="http://nicotown.com/tempo/manialinksbutton.bik" url="http://nicotown.com/tempo/tempolinks.txt" />
+	<label posn="32.5 -39.5 4" sizen="25 2.5" style="TextStaticSmall" text="Click to see all ManiaLinks" halign="center" />
 
 	<!-- ==== Footer (links out to a plain URL via $l[...]$l, not a manialink so not $h) ==== -->
 	<label posn="0 -42 3" sizen="90 3" style="TextStaticSmall" text="Data: $l[https://ul.unitedascenders.xyz/lookup?login=tempo]UnitedLadder$l" halign="center" />
