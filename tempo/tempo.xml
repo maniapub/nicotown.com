@@ -32,7 +32,7 @@
 	<label posn="-42 3 3" sizen="40 5" style="TextValueMedium" text="World Rank: 391" halign="left" />
 	<label posn="-42 -2.5 3" sizen="40 5" style="TextValueMedium" text="Skill Points: 2.1m" halign="left" />
 	<label posn="-42 -8 3" sizen="40 5" style="TextValueMedium" text="Wins: 114.4k" halign="left" />
-	<label posn="-42 -13.5 3" sizen="40 5" style="TextValueMedium" text="Losses: 5.3m" halign="left" />
+	<label posn="-42 -13.5 3" sizen="40 5" style="TextValueMedium" text="Losses: 9.5m" halign="left" />
 
 	<!-- ==== Right half: custom content (clickable link via $l[...]$l since it's a plain URL) ==== -->
 	<label posn="2 3 3" sizen="16 5" style="TextValueMedium" text="Contact:" halign="left" />
@@ -49,6 +49,10 @@
 	<label posn="0 -24 3" sizen="90 5" style="TextStaticSmall" text="Player Tags:" halign="center" />
 	<quad posn="-11 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71477.png" />
 	<quad posn="1 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71479.png" />
+
+	<!-- ==== ManiaLinks button (custom URI scheme, same pattern as the "unc:home?..." link seen in-game) ==== -->
+	<quad posn="19 -22 2" sizen="27 13" style="Bgs1" substyle="NavButton" url="tempo:manialinks" />
+	<label posn="32.5 -16.5 4" sizen="25 5" style="TextButtonMedium" text="ManiaLinks" halign="center" url="tempo:manialinks" />
 
 	<!-- ==== Footer (links out to a plain URL via $l[...]$l, not a manialink so not $h) ==== -->
 	<label posn="0 -42 3" sizen="90 3" style="TextStaticSmall" text="Data: $l[https://ul.unitedascenders.xyz/lookup?login=tempo]UnitedLadder$l" halign="center" />
