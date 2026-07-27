@@ -1,0 +1,42 @@
+<manialink version="1" name="tempolinks6">
+
+	<!-- ==== Main window background ==== -->
+	<quad posn="-50 45 1" sizen="100 90" style="Bgs1InRace" substyle="BgWindow3" />
+
+	<!-- ==== Title bar ==== -->
+	<quad posn="-50 45 2" sizen="100 12" style="Bgs1" substyle="BgTitle3_1" />
+	<quad posn="-46 42.5 3" sizen="7 7" style="Icons64x64_1" substyle="ManiaLinkHome" />
+	<label posn="-37 41 3" sizen="90 7" style="TextTitle1" text="Your ManiaLinks - Page 6/9" halign="left" />
+
+	<!-- ==== Code buttons (all currently point to the same registered URL: nicotown.com/tempo/tempo.xml) ==== -->
+	<label posn="-44 28 3" sizen="20 7" style="CardButtonSmall" text="à¥" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-21 28 3" sizen="20 7" style="CardButtonSmall" text="à¥" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="2 28 3" sizen="20 7" style="CardButtonSmall" text="à¥" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="25 28 3" sizen="20 7" style="CardButtonSmall" text="à¥¢" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-44 18 3" sizen="20 7" style="CardButtonSmall" text="à¤" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-21 18 3" sizen="20 7" style="CardButtonSmall" text="à¤¼" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="2 18 3" sizen="20 7" style="CardButtonSmall" text="Ö¾" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="25 18 3" sizen="20 7" style="CardButtonSmall" text="à¥à¥Ö¿" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-44 8 3" sizen="20 7" style="CardButtonSmall" text="â" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-21 8 3" sizen="20 7" style="CardButtonSmall" text="Â·" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="2 8 3" sizen="20 7" style="CardButtonSmall" text="ï½¡" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="25 8 3" sizen="20 7" style="CardButtonSmall" text="(ã¥ï¿£ Â³ï¿£)ã¥" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-44 -2 3" sizen="20 7" style="CardButtonSmall" text="ndc" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-21 -2 3" sizen="20 7" style="CardButtonSmall" text="Ð¸×Ñ" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="2 -2 3" sizen="20 7" style="CardButtonSmall" text="&gt;w&lt;" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="25 -2 3" sizen="20 7" style="CardButtonSmall" text="&gt;Ï&lt;" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-44 -12 3" sizen="20 7" style="CardButtonSmall" text="â¢" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="-21 -12 3" sizen="20 7" style="CardButtonSmall" text="fwo" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="2 -12 3" sizen="20 7" style="CardButtonSmall" text="Òà¸à¹" halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+	<label posn="25 -12 3" sizen="20 7" style="CardButtonSmall" text="ã " halign="center" url="http://nicotown.com/tempo/tempo.xml" />
+
+	<!-- ==== Prev / Next navigation ==== -->
+	<quad posn="-40 -30 3" sizen="24 7" style="Bgs1" substyle="NavButton" url="http://nicotown.com/tempo/tempolinks5.xml" />
+	<label posn="-28 -28 4" sizen="20 5" style="TextButtonMedium" text="&lt;&lt; Prev" halign="center" url="http://nicotown.com/tempo/tempolinks5.xml" />
+	<quad posn="16 -30 3" sizen="24 7" style="Bgs1" substyle="NavButton" url="http://nicotown.com/tempo/tempolinks7.xml" />
+	<label posn="28 -28 4" sizen="20 5" style="TextButtonMedium" text="Next &gt;&gt;" halign="center" url="http://nicotown.com/tempo/tempolinks7.xml" />
+
+	<!-- ==== Footer ==== -->
+	<label posn="0 -40 3" sizen="90 3" style="TextStaticSmall" text="20 of 180 total codes shown on this page" halign="center" />
+
+</manialink>
