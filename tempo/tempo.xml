@@ -50,9 +50,12 @@
 	<quad posn="-11 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71477.png" />
 	<quad posn="1 -30 3" sizen="10 8" image="http://player-backend.trackmania.com/tags/71479.png" />
 
-	<!-- ==== ManiaLinks button (custom URI scheme, same pattern as the "unc:home?..." link seen in-game) ==== -->
-	<quad posn="19 -22 2" sizen="27 13" style="Bgs1" substyle="NavButton" url="tempo:manialinks" />
-	<label posn="32.5 -16.5 4" sizen="25 5" style="TextButtonMedium" text="ManiaLinks" halign="center" url="tempo:manialinks" />
+	<!-- ==== ManiaLinks button ====
+	     NOTE: manialinksbutton.bik is a Bink VIDEO file, not an image - <quad image="..."> is a texture
+	     loader, so this almost certainly won't render. Wired up as requested; worth testing in-game.
+	     url points directly at the hosted tempolinks.xml file - the old "tempo:manialinks" registered
+	     code actually resolves to tempo.xml (this same player card), not the links list page. -->
+	<quad posn="19 -22 2" sizen="27 17" image="http://nicotown.com/tempo/manialinksbutton.bik" url="http://nicotown.com/tempo/tempolinks.xml" />
 
 	<!-- ==== Footer (links out to a plain URL via $l[...]$l, not a manialink so not $h) ==== -->
 	<label posn="0 -42 3" sizen="90 3" style="TextStaticSmall" text="Data: $l[https://ul.unitedascenders.xyz/lookup?login=tempo]UnitedLadder$l" halign="center" />
